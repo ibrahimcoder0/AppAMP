@@ -1,0 +1,361 @@
+@media(max-width: 1400px){
+  .mid-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}
+@media(max-width: 1200px){
+  .p-heading h4 {
+    font-size: 20px;
+  }
+  .p-heading h1 {
+    margin: 30px 0;
+    font-size: 40px;
+  }
+  .p-heading span {
+    font-size: 15px;
+}
+.p-heading h5 {
+	font-size: 15px;
+	margin-bottom: 12px;
+}
+.p-heading p {
+	font-size: 17px;
+	line-height: 1.4em;
+}
+  .p-content ul li {
+    margin: 14px 0;
+    font-size: 16px;
+  }
+  .p-content ul li span {
+    width: 45px;
+  }
+  .blog-post-content p {
+    font-size: 16px;
+  }
+  .content-right-form h4 {
+    margin-bottom: 10px;
+  }
+  .content-right-form p {
+    font-size: 17px;
+    line-height: 1.4em;
+  }
+  .footer-contact-form {
+    margin-top: 40px;
+  }
+
+}
+
+@media(max-width: 1050px){
+  .logo span {
+    font-size: 20px;
+  }
+  .primary-menu ul li a {
+    padding: 0 13px;
+    font-size: 15px;
+  }
+  .section-title h1 {
+    font-size: 44px;
+    margin-bottom: 20px;
+  }
+  .section-title h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .video-content-right h3 {
+    font-size: 41px;
+    margin-bottom: 25px;
+  }
+  .banner-section {
+    margin-top: 0;
+    padding: 95px 0;
+  }
+  .header-section {
+    position: relative;
+  }
+ 
+
+}
+
+/* This si for main style css */
+.primary-menu span{
+  display: none
+}
+.moblie-menu-checkbox{
+  display: none;
+}
+
+@media(max-width: 992px){
+  .header-logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .logo img {
+    float: inherit;
+  }
+  .logo span {
+    position: relative;
+    top: -20px;
+  }
+  .primary-menu span {
+    font-size: 40px;
+    color: #6278df;
+    cursor: pointer;
+    display: block;
+  }
+  .header-button {
+    width: 200px;
+    text-align: right;
+    position: absolute;
+    right: 15px;
+    top: 72px;
+  }
+  .video-left {
+    width: 100%;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+  }
+  .video-content-right {
+    width: 100%;
+  }
+  .service-box {
+    width: 48%;
+  }
+  .service-box:nth-child(3n+3) {
+    margin-right: 20px;
+  }
+  .service-box:nth-child(2n+2) {
+    margin-right: 0;
+  }
+  .section-title p {
+    font-size: 16px;
+  }
+  .pricing-table-item {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 25px;
+  }
+  .member {
+    width: 48%;
+    margin-bottom: 25px;
+  }
+  .blog-post-item {
+    padding: 20px;
+    margin-right: 30px;
+    box-sizing: border-box;
+    width: 46%;
+  }
+  .blog-post-item img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .t-content {
+    padding: 40px 20px;
+  }
+  .t-content p {
+    font-size: 17px;
+    line-height: 1.4em;
+  }
+  .content-left-map {
+    width: 100%;
+  }
+  .content-right-form {
+    width: 100%;
+    margin-top: 40px;
+  }
+  /* Responsive mobile menu  */
+  .primary-menu ul {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+  }
+  .primary-menu .moblie-menu-checkbox:checked ~ ul{
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+  }
+  .primary-menu ul li {
+    position: relative;
+    display: block;
+}
+.primary-menu ul li ul {
+  left: 92px;
+  position: absolute;
+  top: -98px;
+  background: #fff;
+  width: 300px;
+  z-index: 99;
+}
+.primary-menu ul li ul li {
+  background: #fafafa;
+}
+.primary-menu ul li ul a {
+  line-height: 35px;
+}
+.moblie-menu-checkbox{
+    display: block;
+}
+.moblie-menu-checkbox {
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+  cursor: pointer;
+}
+.primary-menu span {
+  font-size: 40px;
+  color: #6278df;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  top: 87px;
+  left: 25px;
+  pointer-events: none;
+}
+/* .primary-menu .mobile-menu-clos:checked ~ ul{
+  opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+.mobile-menu-clos{
+  display: block;
+}
+.mobile-menu-clos {
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+  cursor: pointer;
+}
+.mobile-menu-icon {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+} */
+
+
+
+
+}
+
+@media (max-width: 768px){
+  .blog-post-item {
+    padding: 20px;
+    margin-right: 30px;
+    box-sizing: border-box;
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px){
+  .banner-content h2 {
+    font-size: 50px;
+  }
+  .default-btn {
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+  .section-title h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  .section-title p {
+    font-size: 20px;
+  }
+  .service-box {
+    width: 100%;
+  }
+  .service-box:nth-child(3n+3) {
+    margin-right: 20px;
+  }
+  .service-box:nth-child(2n+2) {
+    margin-right: 20px;
+  }
+  .service-box:nth-child(1n+1) {
+    margin-right: 20px;
+  }
+  .section-title p {
+    font-size: 16px;
+  }
+  .team-section .section-title h2 {
+    font-size: 25px;
+  }
+  .default-input {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .b-heading h2 {
+    font-size: 35px;
+  }
+  .blog-post-item {
+    padding: 20px;
+    margin-right: 30px;
+    box-sizing: border-box;
+    width: 43%;
+  }
+  .section-title h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  .t-item {
+    width: 100%;
+    margin-right: 2%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 620px){
+  .blog-post-item {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .footer p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 568px){
+  .banner-content h3 {
+    font-size: 19px;
+  }
+  .banner-content h2 {
+    font-size: 30px;
+    margin: 20px 0;
+  }
+  .default-btn {
+    padding: 15px 25px;
+    font-size: 16px;
+    display: block;
+    margin-top: 20px;
+  }
+  .section-title p {
+    font-size: 16px;
+    width: 400px;
+    margin: auto;
+  }
+  .team-section .section-title h2 {
+    font-size: 25px;
+  }
+  .member {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .section-title p {
+    font-size: 16px;
+    width: 450px;
+    margin: auto;
+  }
+  .b-heading {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .bt-content {
+    width: 100%;
+  }
+  .section-title h2 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+}
